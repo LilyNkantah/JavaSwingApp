@@ -14,7 +14,7 @@ public class MyFrame extends JFrame {
         this.setTitle("My Java Swing App"); //sets title of this
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //makes app exit when close button is pressed
         this.setResizable(false); //user can't change size of this, also can't make this fullscreen though
-        this.setSize(420, 420); // sets x-dimension and y-dimension of this
+        this.setSize(500, 500); // sets x-dimension and y-dimension of this
         this.setVisible(true); //makes this actually visible, not hidden
 
         ImageIcon image = new ImageIcon("images/solo-leveling.jpeg"); //creates an ImageIcon
